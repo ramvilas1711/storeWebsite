@@ -1,11 +1,9 @@
-import { useProductContext } from "../context/productcontex.js";
+import { useProductContext } from "../context/productcontex";
 import styled from "styled-components";
 import Product from "./Product";
 
 const FeatureProduct = () => {
   const { isLoading, featureProducts } = useProductContext();
-
-  console.log(isLoading);
 
   if (isLoading) {
     return <div> ......Loading </div>;
