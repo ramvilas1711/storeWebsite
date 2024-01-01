@@ -8,7 +8,6 @@ const Header = () => {
     <MainHeader>
       <NavLink to="/">
         <h3>E-Commerce</h3>
-        {/* <img src="./images/logo.png" alt="my logo img" /> */}
       </NavLink>
       <Nav />
     </MainHeader>
